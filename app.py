@@ -648,7 +648,7 @@ def a_dataframe(filas: list[dict]) -> pd.DataFrame:
 # ==========================================================================
 import streamlit as st
 
-st.set_page_config(page_title="Buscador hípico de Chile", page_icon="🐎", layout="wide")
+st.set_page_config(page_title="Rastreador Hípico", page_icon="🐎", layout="wide")
 
 DIAS = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
 
@@ -676,7 +676,7 @@ def leer_sporting(url: str):
 # --------------------------------------------------------------------------
 # Encabezado y paso 1: cargar programas
 # --------------------------------------------------------------------------
-st.title("🐎 Buscador hípico de Chile")
+st.title("🐎 Rastreador Hípico 🐎")
 st.caption("Carga los programas de las reuniones y busca por caballo, criadero (haras), jinete, "
            "preparador o stud.")
 
